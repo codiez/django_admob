@@ -8,4 +8,5 @@ setup(
     author_email='john@handimobility.ca',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
+    zip_safe = False,    
 )
